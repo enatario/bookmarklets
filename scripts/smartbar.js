@@ -1,9 +1,7 @@
 $(function() {
 	var $globalBar = $( ".global-bar");
-  var $smartBar = $(".notification");
 
 	if($globalBar.length > 0) {
-	    window.globalBar = $globalBar.clone();
 	    $globalBar.remove();
     	newbar();
   }
