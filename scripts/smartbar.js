@@ -23,6 +23,7 @@ $(function() {
     $('.notification').remove();
     $('body').prepend(window.globalBar);
   }
+  
 
 
 function newbar() {
