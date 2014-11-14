@@ -1,0 +1,75 @@
+.notification {
+	position: relative;
+	padding: 1em;
+	box-shadow: #ccc 0 -7px 9px -7px inset;
+	-webkit-box-shadow': #ccc 0 -7px 9px -7px inset;
+	font-size: 1.5rem;
+  	text-align: center;
+}
+
+a.notification__info {
+	display: inline-block;
+	text-decoration: none;
+	line-height: 1.5em;
+	font-family: 'helvetica', sans-serif;
+	font-weight: bold;
+	font-size: 0.8em;
+	padding: 0 2em;
+}
+
+.notification__toggle {
+	position: absolute;
+	right: 0.5em;
+	top: 1em;
+	border: 0;
+	background-color: transparent;
+}
+
+.icon-close {
+	width: 2.5em;
+	height: 2em;
+	cursor: pointer;
+	opacity: 0.6;
+}
+
+.icon-close:hover {
+	opacity: 1;
+}
+
+.notification--white {
+	background-color: white;
+}
+
+.notification--white a.notification__info {
+	color: #444;
+}
+
+.notification--white a.notification__info:hover {
+	color: black;
+}
+
+.notification--tan {
+	background-color: #f2f2e9;
+}
+
+.notification--tan a.notification__info {
+	color: #444;
+}
+
+.notification--tan a.notification__info:hover {
+	color: #9b1418;
+}
+
+.notification--sky {
+	background-color: #c3d5de;
+}
+
+.notification--sky a.notification__info {
+	color: black;
+	opacity: 0.7;
+}
+
+.notification--sky a.notification__info:hover {
+	opacity: 1;
+}
+
