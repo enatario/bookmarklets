@@ -6,7 +6,7 @@ $(function() {
 	    window.globalBar = $globalBar.clone();
 	    $globalBar.remove();
     	newbar();
-      $('.notification').addClass('.notification-white');
+      $('.notification').addClass('notification-white');
   }
 
   else if($('.notification').hasClass('notification-white')) {
