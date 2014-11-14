@@ -7,6 +7,7 @@ $(function() {
 	    $globalBar.remove();
     	newbar();
       $smartBar.addClass('white');
+  }
 
   else if(($smartBar).hasClass('white')) {
       $smartBar.addClass('tan');
@@ -15,8 +16,8 @@ $(function() {
   else if(($smartBar).hasClass('tan')) {
       $smartBar.addClass('sky');
     }
-
-  } else {
+  
+  else {
     $('.notification').remove();
     $('body').prepend(window.globalBar);
   }
