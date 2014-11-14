@@ -6,15 +6,17 @@ $(function() {
 	    window.globalBar = $globalBar.clone();
 	    $globalBar.remove();
     	newbar();
-      $smartBar.addClass('white');
+      $smartBar.addClass('.notification-white');
   }
 
-  else if(($smartBar).hasClass('white')) {
-      $smartBar.addClass('tan');
+  else if(($smartBar).hasClass('notification-white')) {
+      $smartBar.removeClass('notification-tan');
+      $smartBar.addClass('notification-tan');
     }
 
-  else if(($smartBar).hasClass('tan')) {
-      $smartBar.addClass('sky');
+  else if(($smartBar).hasClass('notification-tan')) {
+      $smartBar.removeClass('notification-tan');
+      $smartBar.addClass('notification-sky');
     }
   
   else {
