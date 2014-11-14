@@ -2,6 +2,7 @@ $(function() {
 	var $globalBar = $( ".global-bar");
 
 	if($globalBar.length > 0) {
+	    window.globalBar = $globalBar.clone();
 	    $globalBar.remove();
     	newbar();
   }
