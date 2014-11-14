@@ -6,17 +6,17 @@ $(function() {
 	    window.globalBar = $globalBar.clone();
 	    $globalBar.remove();
     	newbar();
-      $smartBar.addClass('.notification-white');
+      $('.notification').addClass('.notification-white');
   }
 
-  else if(($smartBar).hasClass('notification-white')) {
-      $smartBar.removeClass('notification-tan');
-      $smartBar.addClass('notification-tan');
+  else if($('.notification').hasClass('notification-white')) {
+      $('.notification').removeClass('notification-tan');
+      $('.notification').addClass('notification-tan');
     }
 
-  else if(($smartBar).hasClass('notification-tan')) {
-      $smartBar.removeClass('notification-tan');
-      $smartBar.addClass('notification-sky');
+  else if($('.notification').hasClass('notification-tan')) {
+      $('.notification').removeClass('notification-tan');
+      $('.notification').addClass('notification-sky');
     }
   
   else {
