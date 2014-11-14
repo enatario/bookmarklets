@@ -10,7 +10,7 @@ $(function() {
   }
 
   else if($('.notification').hasClass('notification--white')) {
-      $('.notification').removeClass('notification--tan');
+      $('.notification').removeClass('notification--white');
       $('.notification').addClass('notification--tan');
     }
 
