@@ -6,24 +6,24 @@ $(function() {
 	    window.globalBar = $globalBar.clone();
 	    $globalBar.remove();
     	newbar();
-      $('.notification').addClass('notification-white');
+      $('.notification').addClass('notification--white');
   }
 
-  else if($('.notification').hasClass('notification-white')) {
-      $('.notification').removeClass('notification-tan');
-      $('.notification').addClass('notification-tan');
+  else if($('.notification').hasClass('notification--white')) {
+      $('.notification').removeClass('notification--tan');
+      $('.notification').addClass('notification--tan');
     }
 
-  else if($('.notification').hasClass('notification-tan')) {
-      $('.notification').removeClass('notification-tan');
-      $('.notification').addClass('notification-sky');
+  else if($('.notification').hasClass('notification--tan')) {
+      $('.notification').removeClass('notification--tan');
+      $('.notification').addClass('notification--sky');
     }
   
   else {
     $('.notification').remove();
     $('body').prepend(window.globalBar);
   }
-  
+
 
 
 function newbar() {
