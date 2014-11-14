@@ -1,11 +1,11 @@
 $(function() {
 	var $globalBar = $( ".global-bar");
-  var $smartBar = $(".notification")
+  var $smartBar = $(".notification");
 
 	if($globalBar.length > 0) {
 	    window.globalBar = $globalBar.clone();
 	    $globalBar.remove();
-    	smartbar();
+    	newbar();
       $smartBar.addClass('white');
 
   else if(($smartBar).hasClass('white')) {
@@ -22,7 +22,7 @@ $(function() {
   }
 
 
-function smartbar() {
+function newbar() {
     $("body").prepend(
      "<div class='notification'a><a class='notification__info' href='#'>Read the ePaper edition. The complete print edition, in its exact layout. Browse the print edition page by page, including stories and ads.</a><button class='notification__toggle'><svg class='icon-close'><use xlink:href='#icon-close' /></svg></button></div>");
      $("body").append(
