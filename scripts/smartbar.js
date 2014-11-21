@@ -1,11 +1,11 @@
 $(function() {
-	var $globalBar = $( ".global-bar");
+	var $globalBar = $( "a.global-bar");
 
 	if($globalBar.length > 0) {
 	    window.globalBar = $globalBar.clone();
 	    $globalBar.remove();
     	newbar();
-  // }
+   }
 
   // else if($('.notification').hasClass('notification--white')) {
   //     $('.notification').removeClass('notification--white');
