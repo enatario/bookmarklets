@@ -5,6 +5,7 @@
 	-webkit-box-shadow': #ccc 0 -7px 9px -7px inset;
 	font-size: 1.5rem;
   	text-align: center;
+  	background: #f2f2e9;
 }
 
 a.notification__info {
@@ -15,6 +16,16 @@ a.notification__info {
 	font-weight: bold;
 	font-size: 0.8em;
 	padding: 0 2em;
+	color: black;
+	opacity: 0.75;
+}
+
+a.notification__info:hover {
+	opacity: 1;
+}
+
+.notification__cta {
+  color: #9b1518;
 }
 
 .notification__toggle {
@@ -29,47 +40,10 @@ a.notification__info {
 	width: 2.5em;
 	height: 2em;
 	cursor: pointer;
-	opacity: 0.6;
+	opacity: 0.5;
 }
 
 .icon-close:hover {
-	opacity: 1;
-}
-
-.notification--white {
-	background-color: white;
-}
-
-.notification--white a.notification__info {
-	color: #444;
-}
-
-.notification--white a.notification__info:hover {
-	color: #9b1418;
-}
-
-.notification--tan {
-	background-color: #f2f2e9;
-}
-
-.notification--tan a.notification__info {
-	color: #444;
-}
-
-.notification--tan a.notification__info:hover {
-	color: #9b1418;
-}
-
-.notification--sky {
-	background-color: #c3d5de;
-}
-
-.notification--sky a.notification__info {
-	color: black;
-	opacity: 0.7;
-}
-
-.notification--sky a.notification__info:hover {
 	opacity: 1;
 }
 
